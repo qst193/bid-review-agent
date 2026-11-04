@@ -1,0 +1,17 @@
+.env
+.env.*
+!.env.example
+data/
+node_modules/
+.runtime/
+settings.json
+*.log
+_legacy/
+artifacts/
+reports/
+PROJECT3_AUDIT_TEST.md
+Author Software/
+docs/images/login.png
+scripts/refresh-pingwang-focus.mjs
+scripts/test-pingwang-*.mjs
+scripts/test-project-three-*.mjs

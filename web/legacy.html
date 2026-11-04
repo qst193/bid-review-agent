@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>标盾 AI · 售前标书审核工作台</title>
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<div class="app">
+  <aside class="sidebar">
+    <div class="brand">
+      <div class="mark">盾</div>
+      <div>
+        <b>标盾 AI</b>
+        <span>PRESALE BID DESK</span>
+      </div>
+    </div>
+    <nav id="nav"></nav>
+    <div class="foot">
+      接标建项 → 拆解要求 → 分工编制 → 持续检查<br>
+      → 发现问题 → 修改补证 → 复审 → 交标放行 → 复盘<br>
+      <span class="muted">内部预审意见，不代替正式评审结论</span>
+    </div>
+  </aside>
+  <div class="main">
+    <div class="topbar">
+      <span class="crumb" id="crumb">工作台</span>
+      <div class="spacer"></div>
+      <span id="projectPill" class="pill project hidden"></span>
+      <span id="modelPill" class="pill"><span class="dot"></span>读取中…</span>
+    </div>
+    <div class="content" id="app"></div>
+  </div>
+</div>
+<div id="toast" role="status"></div>
+<script type="module" src="/app.js"></script>
+</body>
+</html>
